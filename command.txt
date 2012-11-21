@@ -57,6 +57,8 @@ git branch -v #show the latest commit information of each branch
 
 #rebase command is likely to the command merge, see more details at website help
 
+#remove the file from this project
+git rm [file-name]
 
 
 
