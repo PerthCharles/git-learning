@@ -1,0 +1,34 @@
+#rename the file
+git mv 
+
+#command about remote repositories
+git remote 
+git remote add [remote-name] [remote-address]
+
+#update the local reposities to the remote repositories
+git push [remote-name] [branck-name] 
+
+#fetch the new update from remote reposities
+git fetch [remote-name]
+
+#generate the SSH key
+ssh-keygen
+
+#clone the exiting reposities from url
+git clone [url]
+
+#commit the update of the local reposities to the remote reposities
+git commit -a -m 'the-name-of-this-commit'
+
+#initialize the new project
+git init
+
+#tracking files
+git add [file-name]
+
+#show the status of the files in local reposities
+git status
+
+#to be continued
+
+
