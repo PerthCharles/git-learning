@@ -4,9 +4,11 @@ git mv
 #command about remote repositories
 git remote 
 git remote add [remote-name] [remote-address]
+git remote -v #show the detail address of remote reposities
+git remote show [remote-name] #show the detail information about the remote reposities
 
-#update the local reposities to the remote repositories
-git push [remote-name] [branck-name] 
+#list all the tags
+git tag
 
 #fetch the new update from remote reposities
 git fetch [remote-name]
@@ -17,8 +19,11 @@ ssh-keygen
 #clone the exiting reposities from url
 git clone [url]
 
-#commit the update of the local reposities to the remote reposities
+#commit the update of the local reposities
 git commit -a -m 'the-name-of-this-commit'
+
+#update the local reposities to the remote repositories
+git push [remote-name] [branch-name] 
 
 #initialize the new project
 git init
@@ -30,5 +35,38 @@ git add [file-name]
 git status
 
 #to be continued
+
+#show the commit history
+git log
+git log -p #show the differences between each commit
+git log -2 #show the latest 2 commits
+git log --pretty=oneline #show the history by one line
+
+#make a new branch
+git branch [branch-name]
+
+#checkout from active branch to the specify branch
+git checkout [specify-workspace]
+
+#merge the branch to the actice branch
+git megre [branch-name]
+
+#show the list of all the branchs
+git branch
+git branch -v #show the latest commit information of each branch
+
+#rebase command is likely to the command merge, see more details at website help
+
+
+
+
+
+
+
+
+
+
+
+
 
 
