@@ -1,6 +1,3 @@
-#rename the file
-git mv 
-
 #command about remote repositories
 git remote 
 git remote add [remote-name] [remote-address]
@@ -60,7 +57,14 @@ git branch -v #show the latest commit information of each branch
 #remove the file from this project
 git rm [file-name]
 
+#remove files from all the commits
+git filer-branch --tree-filter 'rm -f file-name' HEAD
 
+#show the command result by pages
+[command] |less
+
+#cpoy the first line of the file to the clipboard
+clip < file-name
 
 
 
