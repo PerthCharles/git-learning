@@ -31,8 +31,6 @@ git add [file-name]
 #show the status of the files in local reposities
 git status
 
-#to be continued
-
 #show the commit history
 git log
 git log -p #show the differences between each commit
@@ -58,13 +56,15 @@ git branch -v #show the latest commit information of each branch
 git rm [file-name]
 
 #remove files from all the commits
-git filer-branch --tree-filter 'rm -f file-name' HEAD
+git filter-branch --tree-filter 'rm -f file-name' HEAD
 
 #show the command result by pages
 [command] |less
 
 #cpoy the first line of the file to the clipboard
 clip < file-name
+
+#to be continued
 
 
 
