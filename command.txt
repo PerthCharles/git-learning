@@ -1,3 +1,12 @@
+#get started after install mysgit in win7
+git config --global user.name PerthCharles
+git config --global user.email zhongbincharles@gmail.com
+git config --global -l  #show the configurations
+git clone  
+#安装gem后，将系统路径添加到msysgit中
+PATH=/c/Ruby200-x64/bin:$PATH
+
+
 #command about remote repositories
 git remote 
 git remote add [remote-name] [remote-address]
